@@ -96,3 +96,9 @@ them.
 https://tsserv.tinkermode.dev/hourly?begin=<BEGIN_TIMESTAMP>&end=<END_TIMESTAMP>
 ```
 
+### Some Considerations
+
+- If no data points fall within a certain hourly bucket, the average value of that bucket is undefined. The program
+  should skip over that bucket in the output.
+- The program should be able to handle a very large number of data points (think millions) without using up too much CPU and memory.
+- Structure your code so that the program's core logic can be easily tested.
