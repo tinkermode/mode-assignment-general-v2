@@ -9,10 +9,10 @@ This exercise should not take more than a few hours to finish.
 After completing the exercise, please check your code into a repo under your personal
 Github account. (Please keep this repo **private** to maintain the confidentiality of this process.)
 Please also add the Github user [`tinkermode`](https://github.com/tinkermode) as a
-collaborator of your private repo. This gives our team access to your code. 
+collaborator of your private repo. This gives our team access to your code.
 
 In our previous email to you, you should find a submission link at the end. Click the
-link to open the submission form. Copy and paste your repo URL into the "Notes" section of 
+link to open the submission form. Copy and paste your repo URL into the "Notes" section of
 the form and submit. Our team will be notified to review your answers.
 
 Normally, we expect candidates to submit their answers within 24 hours of receiving the exercise.
@@ -44,17 +44,17 @@ The data are returned as plain text. Each line represents one data point, starti
 one or more spaces, and then the value (a floating point number). For example:
 
 ```
-2021-03-04T03:46:14Z 116.5416
-2021-03-04T03:47:30Z 116.5446
-2021-03-04T03:48:27Z 116.5485
-2021-03-04T03:49:55Z 116.5531
+2021-03-04T03:45:14Z 110.8634
+2021-03-04T03:46:30Z 110.7046
+2021-03-04T03:47:27Z 110.5467
+2021-03-04T03:48:55Z 110.3896
 ...
 ...
 ...
-2021-03-04T04:13:27Z 116.7289
-2021-03-04T04:14:51Z 116.7395
-2021-03-04T04:15:44Z 116.7498
-2021-03-04T04:16:59Z 116.7600
+2021-03-04T04:13:51Z 107.4177
+2021-03-04T04:14:44Z 107.2777
+2021-03-04T04:15:59Z 107.1385
+2021-03-04T04:16:43Z 107.0001
 ```
 
 As seen in the example above, the time intervals between data points are not uniform.
@@ -73,15 +73,15 @@ Write a command-line program that:
 - Calculates the average value of each hourly bucket, then prints out the results. To complete the earlier example,
   the program should generate an output like this:
 ```
-2021-03-04T03:00:00Z 116.7615
-2021-03-04T04:00:00Z 116.7527
-2021-03-04T05:00:00Z 114.4256
-2021-03-04T06:00:00Z 104.4540
-2021-03-04T07:00:00Z  86.4046
-2021-03-04T08:00:00Z  65.9216
-2021-03-04T09:00:00Z  50.4196
-2021-03-04T10:00:00Z  44.0626
-2021-03-04T11:00:00Z  45.4114
+2021-03-04T03:00:00Z 113.1652
+2021-03-04T04:00:00Z 105.5466
+2021-03-04T05:00:00Z  99.7907
+2021-03-04T06:00:00Z  94.8736
+2021-03-04T07:00:00Z  89.3490
+2021-03-04T08:00:00Z  81.8498
+2021-03-04T09:00:00Z  71.6812
+2021-03-04T10:00:00Z  59.5748
+2021-03-04T11:00:00Z  47.0522
 ```
 
 While we prefer Go and JavaScript (Node.js), as we use them in most of the projects at MODE,
